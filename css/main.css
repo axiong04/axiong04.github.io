@@ -1,0 +1,218 @@
+body,h1,h2,h3,h4,h5 {
+  font-family: "Poppins", sans-serif
+}
+body {
+  font-size: 16px;
+  margin: 0;
+}
+.content_img{
+  position: relative;
+  width: 28%;
+  float: left;
+}
+.content_img div{
+  position: absolute;
+  bottom: -10px;
+  right: 0;
+  color: black;
+  opacity: 0;
+  visibility: hidden;
+  text-align: center;
+}
+.content_img img{
+  opacity: .7;
+}
+.content_img:hover{
+  cursor: pointer;
+}
+.content_img:hover div{
+  width: 100%;
+  padding: 8px 15px;
+  visibility: visible;
+  opacity: 1;
+}
+
+.content_img:hover img{
+  opacity: 1;
+}
+
+.sidebar {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  width: 20%;
+  background-color: #ffc700;
+  position: fixed;
+  height: 100%;
+  overflow: auto;
+}
+.bar a {
+  display: block;
+  color: #fff;
+  padding: 12px 32px;
+  text-decoration: none;
+  font-size: 18px;
+}
+.bar h3 {
+  display: block;
+  color: #fff;
+  padding: 84px 32px;
+  text-decoration: none;
+  font-size: 24px;
+}
+
+.bar a:hover:not(.active) {
+  background-color: #fff;
+  color: black;
+}
+
+.container {
+  position: relative;
+  color: white;
+}
+
+.title {
+
+}
+.title-overlay {
+  position: absolute;
+  top: 24px;
+  left: 32px;
+  font-size: 36px;
+}
+
+.spacing-container {
+  display: flex;
+  justify-content: space-evenly;
+}
+
+.container-light-grey {
+  padding: 5% 5%;
+  background: #EEE;
+}
+
+.container-white {
+  padding: 5% 5%;
+  background: white;
+}
+
+.newsletter{
+  padding: 8% 10%;
+  background: #eee;
+  color: black;
+  text-align: center;
+}
+
+.btn {
+  border-radius: 5px;
+  color: #fff;
+  background: #ccc;
+  padding: 3px 20px;
+}
+
+.btn:hover {
+  background: #ffffff;
+  color: #000;
+}
+
+.footer{
+  padding: 4% 2%;
+  background: #444448;
+  color: white;
+  text-align: left;
+  font-size: 11px;
+}
+
+.vl {
+  border-left: 2px solid white;
+  height: 90px;
+}
+
+.align-container a:visited {
+  text-decoration: none;
+  color: #0050FF;
+}
+.align-container a {
+  text-decoration: none;
+  color: #0050FF;
+}
+
+.align-container {
+  display: flex;
+  align-items: center;
+}
+.myButton {
+  background-color:#ffc700;
+  border-radius:3px;
+  border:1px solid #eee;
+  display:inline-block;
+  cursor:pointer;
+  color:#ffffff;
+  font-family:Arial;
+  font-size:12px;
+  padding:7.5px 24px;
+  text-decoration:none;
+}
+
+.myButton:hover {
+  background-color: #eeb700;
+}
+
+.myButton:active {
+  position:relative;
+  top:1px;
+}
+
+.schoolsite {
+  background-color: transparent;
+  border-radius:8px;
+  border:1px solid #ffc700;
+  display:inline-block;
+  cursor:pointer;
+  color:#ffc700;
+  font-family:Arial;
+  font-size:14px;
+  padding:4px 16px;
+  text-decoration:none;
+}
+.schoolsite:hover {
+  background-color:#ffc700;
+  color: white;
+}
+.schoolsite:active {
+  position: relative;
+  top: 1px;
+}
+
+
+/*text options*/
+.xxxl{
+  font-size: 60px;
+}
+.xxl {
+  font-size: 50px;
+}
+.xl {
+  font-size: 40px;
+}
+.l {
+  font-size: 30px;
+}
+.m{
+  font-size: 20px;
+}
+.s {
+  font-size: 15px;
+}
+.xs {
+  font-size: 10px;
+}
+.xxs {
+  font-size: 7px;
+}
+.white{
+  color: white;
+}
+
+
+
