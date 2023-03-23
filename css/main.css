@@ -96,6 +96,20 @@ body {
   background: white;
 }
 
+.container-center {
+  margin: 18% 30%;
+  padding: 4% 2%;
+  border: 0px solid #ffc700;
+  border-radius:15px;
+  text-align: center;
+  background: white;
+}
+
+.gold-back {
+  background: rgb(2,0,36);
+  background: linear-gradient(0deg, rgba(2,0,36,1) 0%, rgba(255,224,0,1) 0%, rgba(255,199,0,1) 86%);
+}
+
 .newsletter{
   padding: 8% 10%;
   background: #eee;
@@ -159,6 +173,28 @@ body {
 }
 
 .myButton:active {
+  position:relative;
+  top:1px;
+}
+
+.login {
+  background-color:#ffc700;
+  border-radius:3px;
+  border:1px solid #eee;
+  display:inline-block;
+  cursor:pointer;
+  color:#ffffff;
+  font-family:Arial;
+  font-size:15px;
+  padding:8px 10px;
+  text-decoration:none;
+}
+
+.login:hover {
+  background-color: #eeb700;
+}
+
+.login:active {
   position:relative;
   top:1px;
 }
