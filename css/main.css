@@ -128,11 +128,11 @@ body {
   height: 90px;
 }
 
-.align-container a:visited {
+.email a:visited {
   text-decoration: none;
   color: #0050FF;
 }
-.align-container a {
+.email a {
   text-decoration: none;
   color: #0050FF;
 }
