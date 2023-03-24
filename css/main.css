@@ -71,9 +71,6 @@ body {
   color: white;
 }
 
-.title {
-
-}
 .title-overlay {
   position: absolute;
   top: 24px;
@@ -98,7 +95,7 @@ body {
 
 .container-center {
   margin: 18% 30%;
-  padding: 4% 2%;
+  padding: 1px 1px 20px 1px;
   border: 0px solid #ffc700;
   border-radius:15px;
   text-align: center;
@@ -106,8 +103,7 @@ body {
 }
 
 .gold-back {
-  background: rgb(2,0,36);
-  background: linear-gradient(0deg, rgba(2,0,36,1) 0%, rgba(255,224,0,1) 0%, rgba(255,199,0,1) 86%);
+  background: #ffc700;
 }
 
 .newsletter{
