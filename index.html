@@ -4,6 +4,7 @@
   <title>Team 6964 | Bearbots</title>
   <link rel="stylesheet" href="css/main.css">
   <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Poppins">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
   <script type="text/javascript" src="js/index.js"></script>
   <style>
    /*i hate internal css lmao*/
@@ -17,10 +18,14 @@
       <h3>The<br>Bearbots</h3>
       <a href="index.html">Home</a>
       <a href="about.html">About Us</a>
-      <a href="contact.html">Contact</a>
       <a href="sponsors.html">Sponsors</a>
       <a href="login.html">Members</a>
     </b>
+  </div>
+  <div class="align-bottom">
+  <a href="https://www.facebook.com/UAHSBearBots/?lang=en" target="_blank" class="fa fa-facebook"></a>&nbsp;&nbsp;
+  <a href="https://twitter.com/uahsbearbots?lang=en" target="_blank" class="fa fa-twitter"></a>&nbsp;&nbsp;
+  <a href="https://www.instagram.com/uahsbearbots/" target="_blank" class="fa fa-instagram"></a>&nbsp;&nbsp;
   </div>
 </nav>
 <div style="margin-left:20%; overflow: hidden;">
@@ -69,8 +74,30 @@
         FIRST, the FIRST logo, FIRST Robotics Competition (formerly also known as FRC) are trademarks of For Inspiration and Recognition of Science and Technology (FIRST). All other trademarks are the property of their respective owners. &copy;2021 FIRST. All rights reserved.
       </div>
       </div>
-
   </footer>
+  <script type="module">
+    // Import the functions you need from the SDKs you need
+    import { initializeApp } from "https://www.gstatic.com/firebasejs/9.18.0/firebase-app.js";
+    import { getAnalytics } from "https://www.gstatic.com/firebasejs/9.18.0/firebase-analytics.js";
+    // TODO: Add SDKs for Firebase products that you want to use
+    // https://firebase.google.com/docs/web/setup#available-libraries
+
+    // Your web app's Firebase configuration
+    // For Firebase JS SDK v7.20.0 and later, measurementId is optional
+    const firebaseConfig = {
+      apiKey: "AIzaSyAuRsarRMq-4-7NT9adPxoDzo8TDx28b_I",
+      authDomain: "uahsrobotics-3464e.firebaseapp.com",
+      projectId: "uahsrobotics-3464e",
+      storageBucket: "uahsrobotics-3464e.appspot.com",
+      messagingSenderId: "219752318893",
+      appId: "1:219752318893:web:bed4bcad8af17d1d8ec324",
+      measurementId: "G-JDCG7MBEYT"
+    };
+
+    // Initialize Firebase
+    const app = initializeApp(firebaseConfig);
+    const analytics = getAnalytics(app);
+  </script>
   <!--end-->
 </div>
 </body>
